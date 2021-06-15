@@ -132,7 +132,7 @@ def btn_click():
             text.pack(side=tk.LEFT, fill=tk.BOTH)
             session = requests.session()
             text.insert("insert","推波紀錄與內容:")
-            getDATA
+            getDATA()
              
 def close():            
     window.destroy()
